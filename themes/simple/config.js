@@ -1,9 +1,9 @@
 const CONFIG = {
 
   SIMPLE_LOGO_IMG: '/Logo.webp',
-  SIMPLE_TOP_BAR: true, // 显示顶栏
+  SIMPLE_TOP_BAR: false, // 显示顶栏
   SIMPLE_TOP_BAR_CONTENT: process.env.NEXT_PUBLIC_THEME_SIMPLE_TOP_TIPS || '',
-  SIMPLE_LOGO_DESCRIPTION: process.env.NEXT_PUBLIC_THEME_SIMPLE_LOGO_DESCRIPTION || '<div>编程爱好者<br/>/互联网从业者<br/>/知识分享博主</div>',
+  SIMPLE_LOGO_DESCRIPTION: process.env.NEXT_PUBLIC_THEME_SIMPLE_LOGO_DESCRIPTION || '<div>每天吃好吃的<br/>/做白日梦<br/>/躺在草坪上晒太阳</div>',
 
   SIMPLE_AUTHOR_LINK: process.env.NEXT_PUBLIC_AUTHOR_LINK || '#',
 
